@@ -1,0 +1,164 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/pier-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+}
+
+.nav-container {
+  border: white solid;
+  background-color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  margin: 0;
+  width: 100vw; /* this has to remain, do not change  */
+  height: auto;
+  outline: none;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  margin-right: 4px;
+}
+
+.logo h1 {
+  font-family: "Open Sans";
+  font-weight: 595;
+  font-size: 19px;
+}
+
+.nav-options a {
+  margin-left: 30px;
+  font-family: "Open sans";
+  font-size: 14px;
+  color: #333;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.header h1 {
+  color: white;
+  font-family: "Montserrat";
+  text-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  box-shadow: 3px;
+  font-size: 5.429rem;
+  letter-spacing: 1.2px;
+  font-weight: 500;
+}
+
+.tag-line h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1.2px;
+}
+
+.blurb p {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.buttons .v-button input {
+  text-align: center;
+  background-color: transparent;
+  color: #e8e8e8;
+  border: 1px #e8e8e8 solid;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  letter-spacing: 2px;
+}
+
+.buttons .d-button input {
+  text-align: center;
+  background-color: #00aded;
+  color: #e8e8e8;
+  border: 1px #e8e8e8 solid;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  letter-spacing: 2px;
+}
+
+.marketing .features {
+  border: 1px blue dotted;
+  display: grid;
+  grid-template-columns: 1fr min-content repeat(3, 1fr) 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 5px;
+  justify-items: center;
+  align-content: space-around;
+}
+
+.marketing ul li {
+  list-style: none;
+}
+
+.marketing .features .launch {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.marketing .features .optimize {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+
+.marketing .features .loved {
+  grid-column: 5/6;
+  grid-row: 1/2;
+}
+
+.marketing .features .smooth {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.marketing .features .theme {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.marketing .features .woo {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
