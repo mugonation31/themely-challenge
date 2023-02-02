@@ -23,8 +23,9 @@
   <div class="nav-container">
     <nav class="nav">
       <div class="logo">
-        <img src="images/On-Off.svg" alt="">
-        <h1>INTEGRAL</h1>
+        <a href="index.html"> <img src="images/On-Off.svg" alt="">
+          <h1>INTEGRAL</h1>
+        </a>
       </div>
 
       <div class="nav-options">
@@ -33,7 +34,17 @@
         <a href="">SERVICES</a>
         <a href="">ABOUT</a>
         <a href="">CONTACT</a>
+        <input type="checkbox" class="nav-options" id="hamburger">
+        <label for="hamburger"><img src="images/Hamburger.svg" alt=""></label>
       </div>
+      <!-- <div class="drop-down">
+
+        <ul class="nav-block">
+          <li class="nav-hamburger">
+
+          </li>
+        </ul>
+      </div> -->
     </nav>
   </div>
 
@@ -42,7 +53,6 @@
 
   <div class="container">
     <div class="bg-image">
-      <!-- <div class="image"></div> -->
       <div class="header">
         <h1>Integral</h1>
       </div>
@@ -66,35 +76,129 @@
     </div>
   </div>
 
-  <div class="marketing">
-    <ul class="features">
-      <li class="launch flex"><span><img src="images/paper-plane.svg" alt=""></span><b>Optimized For Speed</b>
-        <p>Quis autem vel eum iure reprehen derit qui in ea voluptate velit esse quam nihil<br> molestiae
-          consequatur.</p>
-      </li>
-      <li class="optimize"><span><img src="images/database.svg" alt=""></span><b>Optimized For Speed</b>
-        <p>Quis autem vel eum iure reprehen derit qui in ea voluptate velit esse quam nihil<br> molestiae
-          consequatur.</p>
-      </li>
-      <li class="loved"><span><img src="images/love-heart.svg" alt=""></span><b>Loved By Many</b>
-        <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
-          consequatur.
-        </p>
-      </li>
-      <li class="smooth"><span><img src="images/laptop.svg" alt=""></span><b>Smooth Parallax Effect</b>
-        <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
-          consequatur.</p>
-      </li>
-      <li class="theme"><span><img src="images/cog.svg" alt=""></span><b>Theme Options Panel</b>
-        <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
-          consequatur.</p>
-      </li>
-      <li class="woo"><span><img src="images/shopping-cart.svg" alt=""></span><b>Woocommerce Compatible</b>
-        <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
-          consequatur.</p>
-      </li>
-    </ul>
-  </div>
+  <div class="bottom-sect"> <!--This is the parent and it's grid -->
+
+    <div class="card"> <!--This red container which is flexed-->
+
+      <div class="icon"><img src="images/paper-plane.svg" alt=""></div> <!--this the green icon box-->
+
+      <div class="feature"> <!--this is the blue box -->
+
+        <div class="head"> <!--this the green title box-->
+          <h4>Launch Your Business</h4>
+        </div> <!--this is the end of the green title box-->
+
+        <div class="para"> <!--this is the black blurb box-->
+          <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
+            consequatur.</p>
+        </div> <!--this is the end of the black blurb box-->
+
+      </div> <!--this the end of the blue box -->
+
+    </div> <!--this the end of the red container-->
+
+
+
+    <div class="card">
+
+      <div class="icon"><img src="images/database.svg" alt=""></div>
+
+      <div class="feature">
+
+        <div class="head">
+          <h4>Optimized For Speed</h4>
+        </div>
+
+        <div class="para">
+          <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
+            consequatur.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon"><img src="images/love-heart.svg" alt=""></div>
+
+      <div class="feature">
+
+
+        <div class="head">
+          <h4>Loved By Many</h4>
+        </div>
+
+        <div class="para">
+          <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
+            consequatur.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon"><img src="images/laptop.svg" alt=""></div>
+
+      <div class="feature">
+
+
+        <div class="head">
+          <h4>Smooth Parallax Effect</h4>
+        </div>
+
+        <div class="para">
+          <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
+            consequatur.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="card">
+
+      <div class="icon"><img src="images/cog.svg" alt=""></div>
+
+      <div class="feature">
+
+        <div class="head">
+          <h4>Theme Options Panel</h4>
+        </div>
+
+        <div class="para">
+          <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
+            consequatur.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="card">
+
+      <div class="icon"><img src="images/shopping-cart.svg" alt=""></div>
+
+      <div class="feature">
+
+        <div class="head">
+          <h4>Woocommerce Compatible</h4>
+        </div>
+
+        <div class="para">
+          <p>Quis autem vel eum iure reprehen derit qui<br> in ea voluptate velit esse quam nihil<br> molestiae
+            consequatur.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div> <!--This is the end of the grid parent -->
+
 
 </body>
 
