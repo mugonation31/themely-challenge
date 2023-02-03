@@ -33,6 +33,7 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
+  border: 1px red dotted;
 }
 
 .logo a {
@@ -71,6 +72,11 @@
   background-color: transparent;
   padding: 9px 10px;
   border-radius: 4px;
+  display: none;
+}
+
+.nav-options input {
+  display: none;
 }
 
 .bg-image .header {
@@ -81,6 +87,9 @@
 }
 
 .header h1 {
+  display: block;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   color: white;
   font-family: "Montserrat";
   text-shadow: 0 0 8px rgb(0 0 0 / 60%);
@@ -185,12 +194,50 @@
   text-align: justify;
 }
 
-@media only screen and (max-width: 1144px) {
-  .bottom-sect {
+@media only screen and (max-width: 1234px) {
+  .nav-options {
+    margin-right: 20px;
   }
 }
 
-@media only screen and (max-width: 1134px) {
-  .bottom-sect {
+@media only screen and (max-width: 988px) {
+  .logo {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-options a {
+    display: none;
+  }
+
+  .nav-options label img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .header h1 {
+    font-size: 4rem;
+  }
+
+  .tag-line h2 {
+    font-size: 3rem;
+    padding-top: 30px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px red dotted;
+  }
+
+  .v-button {
+    margin-bottom: 10px;
+  }
+
+  .buttons .d-button input {
   }
 }
