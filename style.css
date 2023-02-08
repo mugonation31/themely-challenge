@@ -159,8 +159,6 @@
   color: #333;
   font-family: "Open Sans";
   position: relative;
-
-  /* overflow-x: hidden; */
 }
 
 .box {
@@ -174,11 +172,13 @@
 }
 
 .icon img {
-  position: relative;
+  /* position: relative; */
   top: 0;
   left: 0;
-  display: inline-block;
+  /* display: inline-block; */
   color: #5cb85c;
+
+  padding: 10 10 10 10;
 }
 
 .head h4 {
@@ -241,15 +241,20 @@
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  .para p {
-    /* text-align: justify; */
-  }
-}
-
 @media only screen and (max-width: 740px) {
   .bottom-sect {
     display: grid;
     grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 438px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .tag-line h2 {
+    font-size: 2rem;
+    padding-top: 50px;
   }
 }
