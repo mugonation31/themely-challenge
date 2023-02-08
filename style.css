@@ -33,7 +33,6 @@
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
-  border: 1px red dotted;
 }
 
 .logo a {
@@ -160,7 +159,12 @@
   color: #333;
   font-family: "Open Sans";
   position: relative;
-  overflow-x: hidden;
+
+  /* overflow-x: hidden; */
+}
+
+.box {
+  border: 1px red dotted;
 }
 
 .feature {
@@ -191,7 +195,6 @@
   margin-bottom: 25px;
   margin: 0 0 10px;
   font-size: 14px;
-  text-align: justify;
 }
 
 @media only screen and (max-width: 1234px) {
@@ -231,13 +234,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px red dotted;
   }
 
   .v-button {
     margin-bottom: 10px;
   }
+}
 
-  .buttons .d-button input {
+@media only screen and (max-width: 1100px) {
+  .para p {
+    /* text-align: justify; */
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .bottom-sect {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
